@@ -1,16 +1,14 @@
 = New_technology
-// writing comments after settings is not caught by the linter, but it does not work either, so ... // don't do this
-:icons: font
-// ifndef::env-github[:icons: font]
-// ifdef::env-github[]
-// // :status:
-// :outfilesuffix: .adoc
-// :caution-caption: :fire:
-// :important-caption: :exclamation:
-// :note-caption: :paperclip:
-// :tip-caption: :bulb:
-// :warning-caption: :warning:
-// endif::[]
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:DRAFT
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
 //:repoducible:
 //:source-highlighter: coderay
 //:listing-caption: Listing
