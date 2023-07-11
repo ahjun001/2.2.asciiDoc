@@ -5,7 +5,8 @@ ifndef::env-github[:icons: font]
 ifdef::env-github[]
 :status:DRAFT
 :outfilesuffix: .adoc
-:note-caption: :paperclip: // Naughty Waco Temps
+ // Naughty Waco Temps
+:note-caption: :paperclip:
 :tip-caption: :bulb:
 :warning-caption: :warning:
 :caution-caption: :fire:
