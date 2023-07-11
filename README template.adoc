@@ -3,8 +3,6 @@
 :github-flavored:  // enables GitHub-specific features like tables, task lists, and fenced code blocks
 ifndef::env-github[:icons: font]
 ifdef::env-github[]
-:status:DRAFT
-:outfilesuffix: .adoc
  // Naughty Waco Temps
 :note-caption: :paperclip:
 :tip-caption: :bulb:
@@ -13,7 +11,6 @@ ifdef::env-github[]
 :important-caption: :exclamation:
 endif::[]
 :toc: // gets a ToC after the title
-// :toc-title: Contents
 :toclevels: 1
 :sectnums: // gets ToC sections to be numbered
 :sectnumlevels: 3 // max # of numbering levels
