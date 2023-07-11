@@ -1,0 +1,52 @@
+= New_technology
+// writing comments after settings is not caught by the linter, but it does not work either, so ... // don't do this
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+// :status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+//:repoducible:
+//:source-highlighter: coderay
+//:listing-caption: Listing
+//:pdf-page-size: A4
+//:docinfo: private-head
+//:idprefix:
+//:idseparator: -
+//:sectanchors:
+//:sectlinks:
+//:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+:toc: // gets a ToC after the title
+:toc-title: Contents
+:toclevels: 3
+:sectnums: // gets ToC sections to be numbered
+:sectnumlevels: 3 // max # of numbering levels
+//:icons: font	// gets admonition paragraphs to use Font Awesome
+
+== Discover
+
+=== subtitle
+
+==== subtitle
+
+===== subtitle
+
+CAUTION: This is a caution
+
+IMPORTANT: this is important
+
+NOTE: this is a note
+
+TIP: This is a tip
+
+== Learn
+
+== Cultivate
+
+== Deploy
+
+== Todo
