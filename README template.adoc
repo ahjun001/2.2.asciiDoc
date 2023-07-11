@@ -21,6 +21,6 @@ endif::[]
 
 == Cultivate
 
-== Deploy
+== Master
 
 == Todo
