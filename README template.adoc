@@ -1,46 +1,23 @@
 = New_technology
+:backend: asciidoctor
+:github-flavored:  // enables GitHub-specific features like tables, task lists, and fenced code blocks
 ifndef::env-github[:icons: font]
 ifdef::env-github[]
 :status:DRAFT
 :outfilesuffix: .adoc
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
+:note-caption: :paperclip: // Naughty Waco Temps
 :tip-caption: :bulb:
 :warning-caption: :warning:
+:caution-caption: :fire:
+:important-caption: :exclamation:
 endif::[]
-//:repoducible:
-//:source-highlighter: coderay
-//:listing-caption: Listing
-//:pdf-page-size: A4
-//:docinfo: private-head
-//:idprefix:
-//:idseparator: -
-//:sectanchors:
-//:sectlinks:
-//:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 :toc: // gets a ToC after the title
 :toc-title: Contents
-:toclevels: 3
+:toclevels: 1
 :sectnums: // gets ToC sections to be numbered
 :sectnumlevels: 3 // max # of numbering levels
-//:icons: font	// gets admonition paragraphs to use Font Awesome
 
 == Discover
-
-=== subtitle
-
-==== subtitle
-
-===== subtitle
-
-CAUTION: This is a caution
-
-IMPORTANT: this is important
-
-NOTE: this is a note
-
-TIP: This is a tip
 
 == Learn
 
